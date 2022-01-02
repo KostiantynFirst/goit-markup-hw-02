@@ -9,10 +9,11 @@
 :root {
     --primary-text-color: #757575;
     --title-text-color: #212121;
+    --secondary-text-color: #FFFFFF;
     --accent-color: #2196F3;
     --background-text-color: #E5E5E5;
     --background-secondary-color: #F5F4FA; 
-    --secondary-text-color: #FFFFFF;
+    --background-third-color: #2F303A;
 }
 
 body {
@@ -20,14 +21,16 @@ body {
     font-family: Roboto, sans-serif;
     color: var(--primary-text-color);
     letter-spacing: 0.03em;
+    font-size: 14px;
+    line-height: 1.7;
 }
 
 .list {
     list-style: none;
 }
 
-.page {
-    background-color: var(--background-text-color);
+.page-header {
+    background-color: var(--secondary-text-color);
 }
 
 /* Logo */
@@ -44,10 +47,18 @@ body {
     color: var(--title-text-color);
 }
 
+.footer .logo-span {
+    color: var(--secondary-text-color);
+}
+
 /* Site nav */
 
 .site-nav .link {
     color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 
 .site-nav .link.current {
@@ -56,6 +67,10 @@ body {
 
 .auth-nav .link {
     color: inherit;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 
 .site-nav .link:hover, 
@@ -71,27 +86,55 @@ body {
 
 /* Hero */
 
+.hero, 
+.footer {
+    background-color: var(--background-third-color);
+}
+
 .hero-title {
     color: var(--secondary-text-color);
     background-color: #2F303A;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
 
 
 /* Section */
 .section-title {
     color: var(--title-text-color);
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
 }
 
 
 /* Features */
 .features .title {
     color: var(--title-text-color);
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
 }
 
 /* Person-list */
 
-.person-list .title {
+.workers {
+    background-color: var(--background-secondary-color);
+}
+
+.persons .title {
     color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+}
+
+.persons .jobs {
+    font-size: 16px;
+    line-height: 1.19;
 }
 
 /* Button */
@@ -100,6 +143,11 @@ body {
     color: var(--secondary-text-color);
     background-color: var(--accent-color);
     cursor: pointer;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.06em;
 }
 
 .button.primary {

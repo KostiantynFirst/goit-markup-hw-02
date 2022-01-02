@@ -15,13 +15,16 @@
     --secondary-text-color: #FFFFFF;
 }
 
+body {
+    background-color: var(--background-text-color);
+}
 
 .list {
     list-style: none;
 }
 
 .page {
-    background-color: var(----background-text-color);
+    background-color: var(--background-text-color);
     color: var(--primary-text-color);
 }
 
@@ -50,6 +53,10 @@
     color: var(--accent-color);
 }
 
+.auth-nav .address-link {
+    color: var(--secondary-text-color);
+}
+
 /* Hero */
 
 .hero-title {
@@ -75,6 +82,14 @@
     color: var(--title-text-color);
 }
 
+/* Button */
+
+.button {
+    color: var(--secondary-text-color);
+    background-color: var(--accent-color);
+    cursor: pointer;
+}
+
 .button.primary {
     color: var(--secondary-text-color);
     background-color: var(--accent-color);
@@ -84,3 +99,4 @@
     color: var(--title-text-color);
     background-color: var(--background-secondary-color);
 }
+

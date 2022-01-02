@@ -42,6 +42,10 @@ body {
     color: var(--title-text-color);
 }
 
+.site-nav .link.current {
+    color: var(--accent-color); 
+}
+
 .auth-nav .link {
     color: inherit;
 }
@@ -100,3 +104,14 @@ body {
     background-color: var(--background-secondary-color);
 }
 
+.button.primary:hover,
+.button.primary:focus{
+    color: var(--title-text-color);
+    background-color: var(--background-secondary-color);
+}
+
+.button.secondary:hover,
+.button.secondary:focus {
+    color: var(--secondary-text-color);
+    background-color: var(--accent-color);
+}

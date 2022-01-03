@@ -20,9 +20,9 @@ body {
     background-color: var(--background-text-color);
     font-family: Roboto, sans-serif;
     color: var(--primary-text-color);
-    letter-spacing: 0.03em;
     font-size: 14px;
     line-height: 1.7;
+    letter-spacing: 0.03em;
 }
 
 .list {
@@ -41,6 +41,7 @@ body {
     font-weight: bold;
     font-size: 26px;
     line-height: 1.2;
+    text-decoration: none;
 }
 
 .logo-span {
@@ -59,6 +60,7 @@ body {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    text-decoration: none;
 }
 
 .site-nav .link.current {
@@ -71,6 +73,7 @@ body {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    text-decoration: none;
 }
 
 .site-nav .link:hover, 
@@ -150,6 +153,13 @@ body {
     letter-spacing: 0.06em;
 }
 
+.btn {
+    font-weight: 500;
+    line-height: 1.6;
+    letter-spacing: 0.03em;
+
+}
+
 .button.primary {
     color: var(--secondary-text-color);
     background-color: var(--accent-color);
@@ -170,4 +180,24 @@ body {
 .button.secondary:focus {
     color: var(--secondary-text-color);
     background-color: var(--accent-color);
+}
+
+/* Portfolio */
+
+.portfolio-item {
+    text-decoration: none;
+}
+
+.portfolio-title {
+    color: var(--title-text-color);
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+}
+
+.portfolio-text {
+    color: var(--primary-text-color);
+    font-size: 16px;
+    line-height: 1.9;
 }

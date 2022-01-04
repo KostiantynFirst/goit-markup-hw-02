@@ -51,7 +51,7 @@ body {
     color: var(--secondary-text-color);
 }
 
-/* Site nav */
+/* Site Auth nav */
 
 .site-nav .link {
     color: var(--title-text-color);
